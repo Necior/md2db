@@ -2,6 +2,12 @@
 
 Python script to convert peculiarly formatted Markdown file into SQLite-compatible database.
 
+## Output schema
+
+```SQL
+CREATE TABLE posts (date TEXT, content TEXT);
+```
+
 ## Example input file
 
 ```Markdown
