@@ -15,7 +15,6 @@ for line in md:
     if date:
       date = date.strip()
       time_formatted = date[11:]
-      day_formatted = date[0:8].replace('.', '-')
       day = date[0:2]
       month = date[3:5]
       year = '20' + date[6:8]
